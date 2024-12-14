@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Outfit:wght@100..900&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@100..900&display=swap');
+*{
+ font-family: "Outfit", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+}
+.website-name {
+ font-family: "Spicy Rice", serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size:25px;
+ color:#ffaf2d ;
+}
+.navbar-brand {
+    margin-left:30px;
+}
+.navbar {
+    background-color: #034d8e;
+    gap: 30px;
+    color:white;
+   
+}
+.navbar li a{
+  color: white;
+  font-size: 22px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:768px){
+   
+  .navbar-brand {
+    margin-left:0;
+  }
+  .collapse {
+    margin-right:25px;
+  }
+ 
+}
+.dropdown-menu {
+  background-color: #034d8e;
+}
